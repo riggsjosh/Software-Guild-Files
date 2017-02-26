@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="restaurantStyles.css" 
+      rel="stylesheet" 
+      type="text/css" />
+    <style>
+        #center {
+  width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  text-align: right;    
+}
+          
+        .right {
+            text-align: right;
+        }
+        .left{
+            text-align: left;
+        }
+    </style>
 	<title>Contact Us</title>
 </head>
 <body>
-<h1 align="center">Just Good Mexican</h1>
+    <header>
+        Just Good Mexican
+    </header>
 <hr>
 <table>
 	<tr>
@@ -14,26 +34,26 @@
 	</tr>
 </table>
 <hr>
-<div>
-<table>
-<tr>
-		<td align="right">
+<div id="center">
+    <table>
+        <tr>
+    <td class="right">
 		<form action="fakePage.html" method="POST">
-    	<h2>Name:</h2></td>
-    	<td> <input type="text" name="myTextInput"/></td>
+    	<h2>Name:</h2> </td>
+    	<td class="left"> <input type="text" name="myTextInput"/></td>
 <tr>
-		<td align="right">
+    <td class="right">
 		<form action="fakePage.html" method="POST">
     	<h2>Email:</h2></td>
-    	<td> <input type="text" name="myTextInput"/></td>
+    	<td class="left "> <input type="text" name="myTextInput"/></td>
 <tr>
-		<td align="right">
+		<td class="right">
 		<form action="fakePage.html" method="POST">
     	<h2>Phone:</h2></td>
-    	<td> <input type="text" name="myTextInput"/></td>
+    	<td class="left "> <input type="text" name="myTextInput"/></td>
 <tr>
-	<td align="right"><h2>Reason for Inquiry:</h2></td>
-	<td><select name="Catering">
+    <td class="right"><h2>Reason for Inquiry:</h2></td>
+	<td class="left "><select name="Catering">
         <option value="Catering">Catering</option>
         <option value="Private Party">Private Party</option>
         <option value="Feedback">Feedback</option>
@@ -41,30 +61,33 @@
     </select>
 </tr>
 <tr>
-	<td align="right"><h2>Additional Information</h2></td>
-	<td>
+	<td class="right"><h2>Additional Information</h2></td>
+	<td class="left ">
 	<textarea name="briefDescription"></textarea></td>
 </tr>
 <tr>
 <tr>
-	<td align="right"><h2>Have you been to the restaurant?</h2></td>
-	<td><input type="radio" name="answer" value="No" checked/>No <input type="radio" name="answer" value="Yes"/>Yes</td>
+    <td class="right"><h2>Have you been to the restaurant?</h2></td>
+    <td class="left"><input type="radio" name="answer" value="No" checked/>No <input type="radio" name="answer" value="Yes"/>Yes</td>
 </tr>
 <tr>
-	<td align="right"><h2>Best days to contact you?</h2></td>
+    <td class="right"><h2>Best days to contact you?</h2></td>
 	<td><input type="checkbox" name="myChoices" value="m" />m 
 		<input type="checkbox" name="myChoices" value="t"/>t
 		<input type="checkbox" name="myChoices" value="w"/>w
 		<input type="checkbox" name="myChoices" value="th"/>th
 		<input type="checkbox" name="myChoices" value="f"/>f</td>
+<tr>
+    <td></td>
+    <td><input type="submit" value="Send Request"/>
 </tr>
-</form>
+</tr>
 </table>
 </div>
 <hr>
 <footer>
-  <p align="center"> 1234 Tacos Lane, Tacosville, TX 12345</p>
-  <p align="center">555-123-4567</p>
+  <p>1234 Tacos Lane, Tacosville, TX 12345</p>
+  <p>555-123-4567</p>
 </footer>
 </body>
 </html>
