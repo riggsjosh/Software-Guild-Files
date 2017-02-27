@@ -1,0 +1,16 @@
+Total height: margin-top (20) + border-top (1)+ padding-top (10 )+ (height of the content-150)+ padding-bottom (10) + border-bottom (1)+ margin-bottom (20)
+
+Total Height = 212
+
+Total Width: margin-left (20) + border-left  (1)+ padding-left (10) + (width of the content - 400)+ padding-right (10) + border-right (1)+ margin-right (20)
+
+Total Width = 462
+
+Browser Calculated Height: border-top (10)+ padding-top (10) + (height of the content-150)+ padding-bottom (10) + border-bottom (1)
+
+Browser Calculated Height = 181
+
+Broser Calculated Width: border-left (1) + padding-left (10)+ (width of the content-400)+ padding-right (10) + border-right (1)
+
+Browser Calculated Width = 422
+
