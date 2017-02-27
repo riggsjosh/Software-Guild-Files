@@ -19,12 +19,3 @@ header {font-family: "arial"
 footer{
     text-align: center
 }
-a:visited{
-    color: Red;
-}
-a:hover{
-    font-weight: bold;
-}
-a:active{
-    text-decoration: none;
-}

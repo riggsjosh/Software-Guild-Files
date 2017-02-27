@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+</script>
     <link href="restaurantStyles.css" 
       rel="stylesheet" 
       type="text/css" />
@@ -22,72 +27,75 @@
 	<title>Contact Us</title>
 </head>
 <body>
-    <header>
-        Just Good Mexican
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12"></div>
+    <header 
+        <h1> Just Good Mexican </h1> 
     </header>
-<hr>
-<table>
-	<tr>
-		<td><a href="restaurant site V1.html">Home</a></td>
-		<td><a href="restaurantmenu.html">Menu</a></td>
-		<td><a href="restaurantcontact.html">Contact</a></td>
-	</tr>
-</table>
-<hr>
-<div id="center">
-    <table>
-        <tr>
-    <td class="right">
-		<form action="fakePage.html" method="POST">
-                    <h2>Name:</h2> </td>
-    	<td class="left"> <input type="text" name="myTextInput"/></td>
-<tr>
-    <td class="right">
-		<form action="fakePage.html" method="POST">
-                    <h2>Email:</h2></td>
-    	<td class="left "> <input type="text" name="myTextInput"/></td>
-<tr>
-		<td class="right">
-		<form action="fakePage.html" method="POST">
-                    <h2>Phone:</h2></td>
-    	<td class="left "> <input type="text" name="myTextInput"/></td>
-<tr>
-    <td class="right"><h2>Reason for Inquiry:</h2></td>
-	<td class="left "><select name="Catering">
-        <option value="Catering">Catering</option>
-        <option value="Private Party">Private Party</option>
-        <option value="Feedback">Feedback</option>
-        <option value="Other">Other</option>
-    </select>
-</tr>
-<tr>
-    <td class="right"><h2>Additional Information</h2></td>
-	<td class="left ">
-	<textarea name="briefDescription"></textarea></td>
-</tr>
-<tr>
-<tr>
-    <td class="right"><h2>Have you been to the restaurant?</h2></td>
-    <td class="left"><input type="radio" name="answer" value="No" checked/>No <input type="radio" name="answer" value="Yes"/>Yes</td>
-</tr>
-<tr>
-    <td class="right"><h2>Best days to contact you?</h2></td>
-	<td><input type="checkbox" name="myChoices" value="m" />m 
-		<input type="checkbox" name="myChoices" value="t"/>t
-		<input type="checkbox" name="myChoices" value="w"/>w
-		<input type="checkbox" name="myChoices" value="th"/>th
-		<input type="checkbox" name="myChoices" value="f"/>f</td>
-<tr>
-    <td></td>
-    <td><input type="submit" value="Send Request"/>
-</tr>
-</tr>
-</table>
+  </div>
+  <div class="row">
+        <div class="col-lg-3">
+            <ul class="nav nav-pills">
+                <li role="presentation"><a href="restaurant site V1.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li role="presentation"><a href="restaurantmenu.html">Menu</a></li>
+                <li role="presentation" class="active"><a href="restaurantcontact.html">Contact</a></li>
+            </ul>
+        </div>
+  </div>
+    <br>
+  <table class="table table responsive">
+            <tr>
+                <td class="col-md-4" style="text-align: right; font-style: Bold"><form action="fakePage.html" method="POST">
+                    <h3>Name:</h3> </td>
+                <td class="col-md-8" style="text-align: left;"><input type="text" name="myTextInput"/></td>
+            </tr>   
+            <tr>    
+                <td class="col-md-4" style="text-align: right; font-style: Bold"><form action="fakePage.html" method="POST">
+                    <h3>Email:</h3> </td>
+                <td class="col-md-8" style="text-align: left;"><input type="text" name="myTextInput"/></td>
+            </tr>   
+            <tr>        
+                <td class="col-md-4" style="text-align: right; font-style: Bold"><form action="fakePage.html" method="POST">
+                    <h3>Phone:</h3> </td>
+                <td class="col-md-8" style="text-align: left;"><input type="text" name="myTextInput"/></td>
+            <tr>    
+                <td class="col-md-4" style="text-align: right; font-style: Bold">
+                    <h3>Reason for Inquiry:</h3></td>
+                <td class="col-md-8" style="text-align: left;"><input type="text" name="myTextInput"/></td>
+            <tr>
+                <td class="col-md-4" style="text-align: right;">
+                    <h3>Reason for Inquiry:</h3></td>
+                    <td class="col-md-8" style="text-align: left;">
+                        <select name="Catering">
+                            <option value="Catering">Catering</option>
+                            <option value="Private Party">Private Party</option>
+                            <option value="Feedback">Feedback</option>
+                            <option value="Other">Other</option>
+                        </select>
+            </tr>
+            <tr>
+                <td class="col-md-4" style="text-align: right;"><h3>Additional Information</h3></td>
+                <td class="col-md-8" style="text-align: left;">
+                    <textarea name="briefDescription"></textarea></td>
+            </tr>
+            <tr>
+                <td class="col-md-4" style="text-align: right;"><h3>Have you been to the restaurant?</h3></td>
+                <td class="col-md-8" style="text-align: left;"><input type="radio" name="answer" value="No" checked/>No <input type="radio" name="answer" value="Yes"/>Yes</td>
+            </tr>
+            <tr>
+                <td class="col-md-4" style="text-align: right;" ><h3>Best days to contact you?</h3></td>
+                <td class="col-md-8"><input type="checkbox" name="myChoices" value="m" />m 
+                         <input type="checkbox" name="myChoices" value="t"/>t
+                         <input type="checkbox" name="myChoices" value="w"/>w
+                         <input type="checkbox" name="myChoices" value="th"/>th
+                         <input type="checkbox" name="myChoices" value="f"/>f
+                </td>
+            <tr>
+                <td class="col-md-4"></td>
+                <td class="col-md-8"><input type="submit" value="Send Request"/>
+            </tr>
+    </table>      
 </div>
-<hr>
-<footer>
-  <p>1234 Tacos Lane, Tacosville, TX 12345</p>
-  <p>555-123-4567</p>
-</footer>
 </body>
 </html>

@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+</script>
     <link href="restaurantStyles.css" 
       rel="stylesheet" 
       type="text/css" />
@@ -27,67 +32,80 @@
        
 </head>
 <body>
-<header>
-        Just Good Mexican
-    </header>
-<hr>
-<table>
-	<tr>
-		<td><a href="restaurant site V1.html">Home</a></td>
-		<td><a href="restaurantmenu.html">Menu</a></td>
-		<td><a href="restaurantcontact.html">Contact</a></td>
-	</tr>
-</table>
-<hr>
-<div>
-    <table class="center">
-        <tr>
-            <td style="font-size:24px"> <b>House Nachos</b></td>
-            <td style="font-size:24px"> <b>House Burrito</b></td>
-            <td style="font-size:24px"> <b>House Taco</b></td>
-	</tr>
-	<tr>
-		<td>Chips on chips! <br>Piled on with cheese and choice of meat!</td>
-		<td>Flour tortilla filled with <br>all the fixens and choice of meat!</td>
-		<td>Large hardshell taco!<br>Loaded with extra fixens and <br>double the choice of meat!</td>
-	</tr>
-	<tr>
-		<td style="font-size:24px"><b>Chips and Salsa</b></td>
-		<td style="font-size:24px"><b>Chips and Queso</b></td>
-		<td style="font-size:24px"><b>Chips and Guacamole</b></td>
-	</tr>
-	<tr>
-		<td>Fresh made chips and <br>a hearty portion of the house salsa</td>
-		<td>Fresh made chips and <br>a large portion of the house specialty <br>Queso </td>
-		<td>Fresh made chips and <br>the house guacamole that is made fresh <br>right at your table!</td>
-        <tr>
-            <td></td>
-            <td style ="font-size:24px"><b>Delicious Beverages!</b></td>
-            <td></td>
-        </tr>
-</table>
-    <table class="bevs">
-        <tr>
-            <td style="text-align: left">Margarita</td>
-            <td style="text-align: right">$5</td>
-        </tr>
-        <tr>
-            <td style="text-align: left">Beer</td>
-            <td style="text-align: right">$4</td>
-        </tr>
-        <tr>
-            <td style="text-align: left">Soda</td>
-            <td style="text-align: right">$2</td>
-        </tr>
-        <tr>
-            <td style="text-align: left">Bottled Lemonade</td>
-            <td style="text-align: right">$1</td>
-        </tr>
-    </table>    
-<hr>
-<footer>
-  <p>1234 Tacos Lane, Tacosville, TX 12345</p>
-  <p>555-123-4567</p>
-</footer>
+<div class="container">
+  <div class="row">
+      <div class="col-lg-12">
+        <header>
+            Just Good Mexican
+        </header>
+      </div>
+  </div>
+  <div class="row">
+        <div class="col-lg-3">
+            <ul class="nav nav-pills">
+                <li role="presentation"><a href="restaurant site V1.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li role="presentation" class="active"><a href="restaurantmenu.html">Menu</a></li>
+                <li role="presentation"><a href="restaurantcontact.html">Contact</a></li>
+            </ul>
+        </div>
+  </div>  
+    <div class="row">
+        <table class="table table responsive">
+            <tr>
+                <td class="col-lg-4" style="font-size:24px"> <b>House Nachos</b></td>
+                <td class="col-lg-4" style="font-size:24px"> <b>House Burrito</b></td>
+                <td class="col-lg-4" style="font-size:24px"> <b>House Taco</b></td>
+            </tr>
+            <tr class="table table responsive">
+		<td class="col-lg-4">Chips on chips! <br>Piled on with cheese and choice of meat!</td>
+		<td class="col-lg-4">Flour tortilla filled with <br>all the fixens and choice of meat!</td>
+		<td class="col-lg-4">Large hardshell taco!<br>Loaded with extra fixens and <br>double the choice of meat!</td>
+            </tr>
+            <tr class="table table responsive">
+		<td class="col-lg-4" style="font-size:24px"><b>Chips and Salsa</b></td>
+		<td class="col-lg-4" style="font-size:24px"><b>Chips and Queso</b></td>
+		<td class="col-lg-4" style="font-size:24px"><b>Chips and Guacamole</b></td>
+            </tr>
+            <tr class="table table responsive">
+		<td class="col-lg-4">Fresh made chips and <br>a hearty portion of the house salsa</td>
+		<td class="col-lg-4">Fresh made chips and <br>a large portion of the house specialty <br>Queso </td>
+		<td class="col-lg-4">Fresh made chips and <br>the house guacamole that is made fresh <br>right at your table!</td>
+            </tr>
+            <tr class="table table responsive">
+                <td class="col-lg-4"></td>
+                <td class="col-lg-4" style ="font-size:24px"><b>Delicious Beverages!</b></td>
+                <td class="col-lg-4"></td>
+            </tr>
+            <tr class="table table responsive">
+                <td class="col-lg-4"></td>
+                <td class="col-lg-4">Margarita          $5</td>
+                <td class="col-lg-4"></td>
+            </tr>
+            <tr class="table table responsive">
+                <td class="col-lg-4"></td>
+                <td class="col-lg-4">Beer               $4</td>
+                <td class="col-lg-4"></td>
+            </tr>
+            <tr class="table table responsive">
+                <td class="col-lg-4"></td>
+                <td class="col-lg-4">Soda               $2</td>
+                <td class="col-lg-4"></td>
+            </tr>
+            <tr class="table table responsive">
+                <td class="col-lg-4"></td>
+                <td class="col-lg-4">Bottled Lemonade   $1</td>
+                <td class="col-lg-4"></td>
+            </tr>
+        </table>
+        <div class="row">
+            <div class="col-lg-12">
+              <footer>
+                  <p>1234 Tacos Lane, Tacosville, TX 12345</p>
+                  <p>555-123-4567</p>
+              </footer>  
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
