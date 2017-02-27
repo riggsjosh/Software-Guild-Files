@@ -12,7 +12,9 @@ header{
     text-align: center
 }
 header{
-    font-size: 30px;
+    font-size: 30px; 
+}
+header {font-family: "arial"
 }
 footer{
     text-align: center
