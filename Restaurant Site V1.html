@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
     
-    <link rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
-</script>
-
     <style>
         .bgcolor{
             background-color: rgb(255,250,205);
@@ -16,7 +10,16 @@
     <link href="restaurantStyles.css" 
       rel="stylesheet" 
       type="text/css" />
+     
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+</script>
 	<title>Home Page</title>
+    
 </head>
 <body>
 <div class="container">
@@ -26,15 +29,6 @@
         <h1> Just Good Mexican </h1> 
     </header>
   </div>
-  <div class="row">
-      <div class="col-lg-12">
-          <div class="jumbotron">
-            <h1>We're moving!</h1>
-                <p>We are changing our location to move to a better area where people actually like mexican food!</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-            </div>
-      </div>  
-    </div>
     <div class="row">
         <div class="col-lg-3">
             <ul class="nav nav-pills">
@@ -44,6 +38,73 @@
             </ul>
         </div>
     </div>
+<div class="container">
+  <div class="row">
+  </div>
+  <div class='row'>
+    <div class='col-md-offset-2 col-md-8'>
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#quote-carousel" data-slide-to="1"></li>
+          <li data-target="#quote-carousel" data-slide-to="2"></li>
+        </ol>
+        
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner">
+        
+          <!-- Quote 1 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="https://moosocial.com/wp-content/uploads/2015/11/grandopening3.png" style="width: 100px;height:100px;">
+                  <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
+                </div>
+                <div class="col-sm-9">
+                    <p>We're opening a new location!</p>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Taco_(5076902674)_(2).jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-9">
+                  <p>We're rolling out our seasonal menu, with special options for this season.</p>
+                  <small>New Tacos!</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 3 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-3 text-center">
+                  <img class="img-circle" src="http://cdn.800noticias.com/cms/wp-content/uploads/2016/12/cerveza.jpg" style="width: 100px;height:100px;">
+                </div>
+                <div class="col-sm-9">
+                  <p>The Drink of the Month is SG Special Brew.</p>
+                  <small>Made locally!</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+        
+        <!-- Carousel Buttons Next/Prev -->
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+      </div>                          
+    </div>
+  </div>
+</div>
     <div class="row">
         <div class="col-lg-12">
             <div class="bgcolor">
@@ -51,8 +112,8 @@
                      alt="Here is a photo of a buritto"
                      style="display: block;
                             margin: auto; 
-                            width: 400px;
-                            height: 150px;"/>
+                            width: 600px;
+                            height: 300px;"/>
             </div>
         </div>
     </div>
@@ -64,14 +125,19 @@
                             border-style:solid; 
                             border-color:#000000; 
                             padding: 1em;
-                            width: 400px;
-                            height: 150px;
+                            width: 600px;
+                            height: 100px;
                             text-align: center">
                             Here at Just Good Mexican, we have anything and everything you could ever want! Burritos, tacos, salads, as well as a full buffet! Open 10am to 12pm, Monday through saturday. Sundays from 12pm to 6pm
                 </p>
             </div>
             
         </div> 
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <p>*site is best viewed with JavaScript enabled*</p> 
+        </div>
     </div>
     <div class="row">
         <div class="col-lg-12">
@@ -82,5 +148,7 @@
         </div>
     </div>
   </div>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
